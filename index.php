@@ -38,7 +38,7 @@ class Taxi extends Car
         } else {
             echo '降車人数に誤りがあります';
         }
-    return $this->passenger = $this->passenger - $lower;
+        return $this->passenger = $this->passenger - $lower;
     }
     
     public function infomation()
